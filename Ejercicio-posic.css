@@ -1,0 +1,23 @@
+
+
+.check-blue{
+    width: 50px;
+    height: 50px;
+    background-image: url(checkbox.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 241px;
+    background-position: -23px;
+}
+
+.check-blue:hover{
+    background-position: -96px;
+
+}
+.check-blue:active, #check:checked + .check-blue{
+    background-position: -167px;
+}
+
+#check{
+    display:none;
+}
